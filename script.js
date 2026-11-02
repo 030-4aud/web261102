@@ -30,7 +30,7 @@ for (let i = 0; i < ratings.length; i++) {
     if (8.5 < ratings[i]) {
         label = "명작";
     }
-    else if (7 < ratimgs[i]) {
+    else if (7 < ratings[i]) {
         label = "추천";
     }
     else {
