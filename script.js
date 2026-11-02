@@ -1,5 +1,3 @@
-// script.js : 내 영화 평점 통계(콘솔판)
-// 작성자 : 허은서(2651074)
 const titles = ["The Passion of the Christ", "A.I. (Artificial Intelligence)", "Avengers: Infinity War", "Cinderella", "Titanic"];
 const ratings = [7.5, 7.0, 8.2, 6.8, 7.9];
 const years = [2004, 2001, 2018, 2015, 1997];
