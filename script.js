@@ -5,6 +5,13 @@ const years = [2004, 2001, 2018, 2015, 1997];
 let sum = 0;
 let count = 0;
 
+for (let i = 0; i < ratings.length; i++) {
+    sum = sum + ratings[i];
+}
+console.log("합계:", sum);
+const average = sum / ratings.length;
+console.log("평균:", average);
+
 let max = ratings[0];
 let maxIndex = 0;
 
@@ -14,14 +21,9 @@ for (let i = 0; i < ratings.length; i++) {
         maxIndex = i;
     }
 }
-console.log("합계:", sum);
-const average = sum / ratings.length;
-console.log("평균:", average);
-
 console.log("최고:", titles[maxIndex], max);
 
 for (let i = 0; i < ratings.length; i++) {
-    sum = sum + ratings[i];
     if (ratings[i] >= 8) count++;
 }
 console.log("8점 이상:", count + "편")
