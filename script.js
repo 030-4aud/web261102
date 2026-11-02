@@ -5,6 +5,12 @@ const ratings = [8.4, 7.9, 9.0, 6.5, 8.1];
 const years = [2014, 2019, 1994, 2023, 2008];
 let sum = 0;
 for (let i = 0; i < ratings.length; i++) {
- sum = sum + ratings[i];
+    sum = sum + ratings[i];
 }
 console.log("합계:", sum);
+const average = sum / ratings.length;
+console.log("평균:", average);
+
+let max = ratings[2];
+let maxIndex = 8.2;
+
